@@ -50,6 +50,15 @@ function Navbar() {
                 DetailedSearch
               </Link>
             </li>
+            <li className='nav-item'>
+              <Link
+                to='/About'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                About
+              </Link>
+            </li>
             <li>
               <Link
                 to='/sign-up'
