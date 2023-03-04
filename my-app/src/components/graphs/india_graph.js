@@ -1,9 +1,9 @@
 import React, { PureComponent } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Label } from 'recharts';
-import data from './china.json';
+import data from './india.json';
 
 
-export default class Example extends PureComponent {
+export default class india_graph extends PureComponent {
 
     render() {
       return (

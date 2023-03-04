@@ -1,14 +1,19 @@
 import React from 'react';
 import '../App.css';
+import '../components/Button'
+import {Link} from 'react-router-dom';
 import { Button } from './Button';
+import './Button.css';
 
-function ButtonSection() {
+function ButtonSection(props) {
     return (
-        <div className='btns'>
-            <button>
-                Get Started
-            </button>
+        <Link to = {props.link}>
+        <div className='btn'>
+            <Button >
+                {props.name}
+            </Button>
         </div>
+        </Link>
 
 
     // <div>

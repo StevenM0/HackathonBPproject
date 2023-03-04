@@ -29,7 +29,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            SavetheFuture
+            SaveTheFuture
             <i class='fab fa-typo3' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -43,11 +43,11 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/DetailedSearch'
+                to='/About'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                DetailedSearch
+                CCUS
               </Link>
             </li>
             <li>

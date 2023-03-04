@@ -1,9 +1,9 @@
 import React, { PureComponent } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Label } from 'recharts';
-import data from './china.json';
+import data from './Total_europe.json';
 
 
-export default class Example extends PureComponent {
+export default class TotalEuropegraph extends PureComponent {
 
     render() {
       return (
